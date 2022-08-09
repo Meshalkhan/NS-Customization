@@ -1,0 +1,233 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap'); */
+
+
+/* @font-face {
+    font-family: "NewCursive";
+    src: url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+} */
+
+@font-face {
+    font-family: "Alexa";
+    src: url("/src/Assets/Fonts/Alexa/Alexa-regular.ttf");
+}
+
+@font-face {
+    font-family: "Barcelona";
+    src: url("/src/Assets/Fonts/Barcelona/Barcelona-regular.otf");
+}
+
+@font-face {
+    font-family: "Amsterdam";
+    src: url("/src/Assets/Fonts/Amsterdam/Amsterdam-regular.ttf");
+}
+
+@font-face {
+    font-family: "Venetian";
+    src: url("/src/Assets/Fonts/Venetian/Venetian-regular.otf");
+}
+
+@font-face {
+    font-family: "Amanda";
+    src: url("/src/Assets/Fonts/Amanda/Amanda-regular.otf");
+}
+
+@font-face {
+    font-family: "Austin";
+    src: url("/src/Assets/Fonts/Austin/Austin-regular.ttf");
+}
+
+@font-face {
+    font-family: "Beachfront";
+    src: url("/src/Assets/Fonts/Beachfront/Beachfront-regular.ttf");
+}
+
+@font-face {
+    font-family: "Chelsea";
+    src: url("/src/Assets/Fonts/Chelsea/Chelsea-regular.ttf");
+}
+
+@font-face {
+    font-family: "Freehand";
+    src: url("/src/Assets/Fonts/Freehand/Freehand-regular.otf");
+}
+
+
+@font-face {
+    font-family: "Neonscript";
+    src: url("/src/Assets/Fonts/Neonscript/Neonscript-regular.ttf");
+}
+
+@font-face {
+    font-family: "Northshore";
+    src: url("/src/Assets/Fonts/Northshore/Northshore-regular.ttf");
+}
+
+@font-face {
+    font-family: "Photogenic";
+    src: url("/src/Assets/Fonts/Photogenic/Photogenic-regular.ttf");
+}
+
+@font-face {
+    font-family: "Royalty";
+    src: url("/src/Assets/Fonts/Royalty/Royalty-regular.ttf");
+}
+
+@font-face {
+    font-family: "Rocket";
+    src: url("/src/Assets/Fonts/Rocket/Rocket-regular.ttf");
+}
+
+@font-face {
+    font-family: "Signature";
+    src: url("/src/Assets/Fonts/Signature/Signature-regular.otf");
+}
+
+@font-face {
+    font-family: "Sorrento";
+    src: url("/src/Assets/Fonts/Sorrento/Sorrento-regular.ttf");
+}
+
+@font-face {
+    font-family: "WildScript";
+    src: url("/src/Assets/Fonts/WildScript/WildScript-regular.ttf");
+}
+
+@font-face {
+    font-family: "Avante";
+    src: url("/src/Assets/Fonts/Avante/Avante-regular.ttf");
+}
+
+@font-face {
+    font-family: "Buttercup";
+    src: url("/src/Assets/Fonts/Buttercup/Buttercup-regular.ttf");
+}
+
+@font-face {
+    font-family: "ClassicType";
+    src: url("/src/Assets/Fonts/ClassicType/ClassicType-regular.ttf");
+}
+
+@font-face {
+    font-family: "Typewriter";
+    src: url("/src/Assets/Fonts/Typewriter/Typewriter-regular.otf");
+}
+
+@font-face {
+    font-family: "Melbourne";
+    src: url("/src/Assets/Fonts/Melbourne/Melbourne-regular.otf");
+}
+
+@font-face {
+    font-family: "NeoTokyo";
+    src: url("/src/Assets/Fonts/NeoTokyo/NeoTokyo-regular.ttf");
+}
+
+@font-face {
+    font-family: "Monaco";
+    src: url("/src/Assets/Fonts/Monaco/Monaco-regular.ttf");
+}
+
+@font-face {
+    font-family: "Bellview";
+    src: url("/src/Assets/Fonts/Bellview/Bellview-regular.otf");
+}
+
+@font-face {
+    font-family: "Marquee";
+    src: url("/src/Assets/Fonts/Marquee/Marquee-regular.ttf");
+}
+
+@font-face {
+    font-family: "Mayfair";
+    src: url("/src/Assets/Fonts/Mayfair/Mayfair-regular.ttf");
+}
+
+@font-face {
+    font-family: "NeonGlow";
+    src: url("/src/Assets/Fonts/NeonGlow/NeonGlow-regular.otf");
+}
+
+@font-face {
+    font-family: "NeonLite";
+    src: url("/src/Assets/Fonts/NeonLite/NeonLite-regular.otf");
+}
+
+@font-face {
+    font-family: "Nevada";
+    src: url("/src/Assets/Fonts/Nevada/Nevada-regular.ttf");
+}
+
+@font-face {
+    font-family: "Neontrace";
+    src: url("/src/Assets/Fonts/Neontrace/Neontrace-regular.TTF");
+}
+
+@font-face {
+    font-family: "Vintage";
+    src: url("/src/Assets/Fonts/Vintage/Vintage-regular.otf");
+}
+
+@font-face {
+    font-family: "NewCursive";
+    src: url("/src/Assets/Fonts/NewCursive/NewCursive-regular.ttf");
+}
+
+@font-face {
+    font-family: 'Kufi';
+    src: url("/src/Assets/Fonts/DroidKufiArabic/DroidKufi-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Sabana';
+    src: url("/src/Assets/Fonts/SabanaArabic/Sabana.ttf");
+}
+
+@font-face {
+    font-family: 'Kahlil';
+    src: url("/src/Assets/Fonts/kahlilArabic/Kahlil.otf");
+}
+
+@font-face {
+    font-family: 'Mustopha';
+    src: url("/src/Assets/Fonts/mustophaArabic/MustophaRegular-eZ3gm.ttf");
+}
+
+@font-face {
+    font-family: 'Khodijah';
+    src: url("/src/Assets/Fonts/khodijahArabic/Khodijah\ Free.ttf");
+}
+
+@font-face {
+    font-family: 'Assyam';
+    src: url("/src/Assets/Fonts/assyamArabic/Assyam.ttf");
+}
+
+@font-face {
+    font-family: 'Samiruk';
+    src: url("/src/Assets/Fonts/samirukArabic/samiruk.ttf");
+}
+
+@font-face {
+    font-family: 'felicitationArabic2';
+    src: url("/src/Assets/Fonts/felicitationArabic2/Felicitation\ Arabic_Ramadan.ttf");
+}
+
+@font-face {
+    font-family: 'magicArabic';
+    src: url("/src/Assets/Fonts/magicArabic/Arabic\ Magic.ttf");
+}
+
+@font-face {
+    font-family: 'rakhisaArabic';
+    src: url("/src/Assets/Fonts/rakhisaArabic/Rakhisa.ttf");
+}
+
+@font-face {
+    font-family: 'tharwatArabic';
+    src: url("/src/Assets/Fonts/tharwatArabic/Tharwat.ttf");
+}
+
+@font-face {
+    font-family: 'zanzabarArabic';
+    src: url("/src/Assets/Fonts/zanzabarArabic/Zanzabar\ D.otf");
+}

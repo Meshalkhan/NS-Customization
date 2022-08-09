@@ -1,0 +1,235 @@
+.Warm_White {
+    color: rgb(255, 253, 207);
+    background-color: rgb(255, 253, 207);
+}
+
+.Warm_White.active {
+    box-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, rgb(255, 253, 207) 0px 0px 8px, rgb(255, 253, 207) 0px 0px 12px, rgb(255, 253, 207) 0px 0px 16px, rgb(255, 253, 207) 0px 0px 22px, rgb(255, 253, 207) 0px 0px 30px;
+    text-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, rgb(255, 253, 207) 0px 0px 8px, rgb(255, 253, 207) 0px 0px 12px, rgb(255, 253, 207) 0px 0px 16px, rgb(255, 253, 207) 0px 0px 22px, rgb(255, 253, 207) 0px 0px 30px;
+}
+
+.White.text {
+
+    color: rgb(244, 244, 244);
+}
+
+.Warm_White.text,
+.White.text,
+.color60.text,
+.color80.text,
+.color110.text,
+.color130.text,
+.color140.text,
+.color170.text {
+    text-shadow: rgb(181 181 181) 0px 1px 0px, rgb(169 169 169) 0px 2px 0px, rgb(148 148 148) 0px 3px 0px, rgb(125 125 125) 0px 4px 0px, rgb(0 0 0 / 23%) 0px 0px 5px, rgb(0 0 0 / 43%) 0px 1px 3px, rgb(0 0 0 / 40%) 1px 4px 6px, rgb(0 0 0 / 38%) 0px 5px 10px, rgb(0 0 0 / 25%) 3px 7px 12px;
+}
+
+.White {
+    color: rgb(225, 227, 230);
+    background-color: white;
+}
+
+.White.active {
+    box-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, rgb(225, 227, 230) 0px 0px 8px, rgb(225, 227, 230) 0px 0px 12px, rgb(225, 227, 230) 0px 0px 16px, rgb(225, 227, 230) 0px 0px 22px, rgb(225, 227, 230) 0px 0px 30px;
+    text-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, white 0px 0px 8px, white 0px 0px 12px, white 0px 0px 16px, white 0px 0px 22px, white 0px 0px 30px;
+}
+
+.Lemon_Yellow {
+    color: rgb(255, 249, 124);
+    background-color: rgb(255, 249, 124);
+}
+
+.Lemon_Yellow.active {
+    box-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, rgb(255, 249, 124) 0px 0px 8px, rgb(255, 249, 124) 0px 0px 12px, rgb(255, 249, 124) 0px 0px 16px, rgb(255, 249, 124) 0px 0px 22px, rgb(255, 249, 124) 0px 0px 30px;
+    text-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, rgb(255, 249, 124) 0px 0px 8px, rgb(255, 249, 124) 0px 0px 12px, rgb(255, 249, 124) 0px 0px 16px, rgb(255, 249, 124) 0px 0px 22px, rgb(255, 249, 124) 0px 0px 30px;
+}
+
+.Lemon_Yellow.text {
+    text-shadow: rgb(233 227 106) 0px 1px 0px, rgb(218 212 80) 0px 2px 0px, rgb(199 193 68) 0px 3px 0px, rgb(170 165 53) 0px 4px 0px, rgb(0 0 0 / 23%) 0px 0px 5px, rgb(0 0 0 / 43%) 0px 1px 3px, rgb(0 0 0 / 40%) 1px 4px 6px, rgb(0 0 0 / 38%) 0px 5px 10px, rgb(0 0 0 / 25%) 3px 7px 12px
+}
+
+.color40 {
+    color: rgb(255, 214, 46);
+    background-color: rgb(255, 214, 46);
+}
+
+.color40.active {
+    box-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, rgb(255, 214, 46) 0px 0px 8px, rgb(255, 214, 46) 0px 0px 12px, rgb(255, 214, 46) 0px 0px 16px, rgb(255, 214, 46) 0px 0px 22px, rgb(255, 214, 46) 0px 0px 30px;
+    text-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, rgb(255, 214, 46) 0px 0px 8px, rgb(255, 214, 46) 0px 0px 12px, rgb(255, 214, 46) 0px 0px 16px, rgb(255, 214, 46) 0px 0px 22px, rgb(255, 214, 46) 0px 0px 30px;
+}
+
+.color40.text {
+    text-shadow: rgb(223 185 31) 0px 1px 0px, rgb(205 169 22) 0px 2px 0px, rgb(186 153 18) 0px 3px 0px, rgb(164 132 1) 0px 4px 0px, rgb(0 0 0 / 23%) 0px 0px 5px, rgb(0 0 0 / 43%) 0px 1px 3px, rgb(0 0 0 / 40%) 1px 4px 6px, rgb(0 0 0 / 38%) 0px 5px 10px, rgb(0 0 0 / 25%) 3px 7px 12px
+}
+
+.color50 {
+    color: rgb(255, 141, 2);
+    background-color: rgb(255, 141, 2);
+}
+
+.color50.active {
+    box-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, rgb(255, 141, 2) 0px 0px 8px, rgb(255, 141, 2) 0px 0px 12px, rgb(255, 141, 2) 0px 0px 16px, rgb(255, 141, 2) 0px 0px 22px, rgb(255, 141, 2) 0px 0px 30px;
+    text-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, rgb(255, 141, 2) 0px 0px 8px, rgb(255, 141, 2) 0px 0px 12px, rgb(255, 141, 2) 0px 0px 16px, rgb(255, 141, 2) 0px 0px 22px, rgb(255, 141, 2) 0px 0px 30px;
+}
+
+.color50.text {
+    text-shadow: rgb(217 123 0) 0px 1px 0px, rgb(231 127 0) 0px 2px 0px, rgb(191 108 1) 0px 3px 0px, rgb(168 95 0) 0px 4px 0px, rgb(0 0 0 / 23%) 0px 0px 5px, rgb(0 0 0 / 43%) 0px 1px 3px, rgb(0 0 0 / 40%) 1px 4px 6px, rgb(0 0 0 / 38%) 0px 5px 10px, rgb(0 0 0 / 25%) 3px 7px 12px
+}
+
+.color60 {
+    color: rgb(255, 117, 117);
+    background-color: rgb(255, 117, 117);
+}
+
+.color60.active {
+    box-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, rgb(255, 117, 117) 0px 0px 8px, rgb(255, 117, 117) 0px 0px 12px, rgb(255, 117, 117) 0px 0px 16px, rgb(255, 117, 117) 0px 0px 22px, rgb(255, 117, 117) 0px 0px 30px;
+    text-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, rgb(255, 117, 117) 0px 0px 8px, rgb(255, 117, 117) 0px 0px 12px, rgb(255, 117, 117) 0px 0px 16px, rgb(255, 117, 117) 0px 0px 22px, rgb(255, 117, 117) 0px 0px 30px;
+}
+
+.color70 {
+    color: rgb(255, 42, 77);
+    background-color: rgb(255, 42, 77);
+}
+
+.color70.active {
+    box-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, rgb(255, 42, 77) 0px 0px 8px, rgb(255, 42, 77) 0px 0px 12px, rgb(255, 42, 77) 0px 0px 16px, rgb(255, 42, 77) 0px 0px 22px, rgb(255, 42, 77) 0px 0px 30px;
+    text-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, rgb(255, 42, 77) 0px 0px 8px, rgb(255, 42, 77) 0px 0px 12px, rgb(255, 42, 77) 0px 0px 16px, rgb(255, 42, 77) 0px 0px 22px, rgb(255, 42, 77) 0px 0px 30px;
+}
+
+.color70.text {
+    text-shadow: rgb(219 20 56) 0px 1px 0px, rgb(188 8 40) 0px 2px 0px, rgb(160 0 29) 0px 3px 0px, rgb(121 0 22) 0px 4px 0px, rgb(0 0 0 / 23%) 0px 0px 5px, rgb(0 0 0 / 43%) 0px 1px 3px, rgb(0 0 0 / 40%) 1px 4px 6px, rgb(0 0 0 / 38%) 0px 5px 10px, rgb(0 0 0 / 25%) 3px 7px 12px;
+}
+
+.color80 {
+    color: rgb(255, 144, 255);
+    background-color: rgb(255, 144, 255);
+}
+
+.color80.active {
+    box-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, rgb(255, 144, 255) 0px 0px 8px, rgb(255, 144, 255) 0px 0px 12px, rgb(255, 144, 255) 0px 0px 16px, rgb(255, 144, 255) 0px 0px 22px, rgb(255, 144, 255) 0px 0px 30px;
+    text-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, rgb(255, 144, 255) 0px 0px 8px, rgb(255, 144, 255) 0px 0px 12px, rgb(255, 144, 255) 0px 0px 16px, rgb(255, 144, 255) 0px 0px 22px, rgb(255, 144, 255) 0px 0px 30px;
+}
+
+.color90 {
+    color: rgb(234, 164, 255);
+    background-color: rgb(234, 164, 255);
+}
+
+.color90.active {
+    box-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, rgb(234, 164, 255) 0px 0px 8px, rgb(234, 164, 255) 0px 0px 12px, rgb(234, 164, 255) 0px 0px 16px, rgb(234, 164, 255) 0px 0px 22px, rgb(234, 164, 255) 0px 0px 30px;
+    text-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, rgb(234, 164, 255) 0px 0px 8px, rgb(234, 164, 255) 0px 0px 12px, rgb(234, 164, 255) 0px 0px 16px, rgb(234, 164, 255) 0px 0px 22px, rgb(234, 164, 255) 0px 0px 30px;
+}
+
+.color90.text {
+    text-shadow: rgb(244 138 219) 0px 1px 0px, rgb(226 113 199) 0px 2px 0px, rgb(212 93 184) 0px 3px 0px, rgb(191 90 167) 0px 4px 0px, rgb(0 0 0 / 23%) 0px 0px 5px, rgb(0 0 0 / 43%) 0px 1px 3px, rgb(0 0 0 / 40%) 1px 4px 6px, rgb(0 0 0 / 38%) 0px 5px 10px, rgb(0 0 0 / 25%) 3px 7px 12px
+}
+
+.color100 {
+    color: rgb(255, 92, 232);
+    background-color: rgb(255, 92, 232);
+}
+
+.color100.active {
+    box-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, rgb(255, 92, 232) 0px 0px 8px, rgb(255, 92, 232) 0px 0px 12px, rgb(255, 92, 232) 0px 0px 16px, rgb(255, 92, 232) 0px 0px 22px, rgb(255, 92, 232) 0px 0px 30px;
+    text-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, rgb(255, 92, 232) 0px 0px 8px, rgb(255, 92, 232) 0px 0px 12px, rgb(255, 92, 232) 0px 0px 16px, rgb(255, 92, 232) 0px 0px 22px, rgb(255, 92, 232) 0px 0px 30px;
+}
+
+.color100.text {
+    text-shadow: rgb(231 61 205) 0px 1px 0px, rgb(210 47 186) 0px 2px 0px, rgb(196 42 173) 0px 3px 0px, rgb(181 33 159) 0px 4px 0px, rgb(0 0 0 / 23%) 0px 0px 5px, rgb(0 0 0 / 43%) 0px 1px 3px, rgb(0 0 0 / 40%) 1px 4px 6px, rgb(0 0 0 / 38%) 0px 5px 10px, rgb(0 0 0 / 25%) 3px 7px 12px
+}
+
+.color110 {
+    color: rgb(140, 89, 255);
+    background-color: rgb(140, 89, 255);
+}
+
+.color110.active {
+    box-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, rgb(140, 89, 255) 0px 0px 8px, rgb(140, 89, 255) 0px 0px 12px, rgb(140, 89, 255) 0px 0px 16px, rgb(140, 89, 255) 0px 0px 22px, rgb(140, 89, 255) 0px 0px 30px;
+    text-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, rgb(140, 89, 255) 0px 0px 8px, rgb(140, 89, 255) 0px 0px 12px, rgb(140, 89, 255) 0px 0px 16px, rgb(140, 89, 255) 0px 0px 22px, rgb(140, 89, 255) 0px 0px 30px;
+}
+
+.color120 {
+    color: rgb(2, 116, 252);
+    background-color: rgb(2, 116, 252);
+}
+
+.color120.active {
+    box-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, rgb(2, 116, 252) 0px 0px 8px, rgb(2, 116, 252) 0px 0px 12px, rgb(2, 116, 252) 0px 0px 16px, rgb(2, 116, 252) 0px 0px 22px, rgb(2, 116, 252) 0px 0px 30px;
+    text-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, rgb(2, 116, 252) 0px 0px 8px, rgb(2, 116, 252) 0px 0px 12px, rgb(2, 116, 252) 0px 0px 16px, rgb(2, 116, 252) 0px 0px 22px, rgb(2, 116, 252) 0px 0px 30px;
+}
+
+.color120.text {
+    text-shadow: rgb(0 95 208) 0px 1px 0px, rgb(0 98 214) 0px 2px 0px, rgb(0 72 158) 0px 3px 0px, rgb(0 61 133) 0px 4px 0px, rgb(0 0 0 / 23%) 0px 0px 5px, rgb(0 0 0 / 43%) 0px 1px 3px, rgb(0 0 0 / 40%) 1px 4px 6px, rgb(0 0 0 / 38%) 0px 5px 10px, rgb(0 0 0 / 25%) 3px 7px 12px
+}
+
+.color130 {
+    color: rgb(99, 170, 255);
+    background-color: rgb(99, 170, 255);
+}
+
+.color130.active {
+    box-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, rgb(99, 170, 255) 0px 0px 8px, rgb(99, 170, 255) 0px 0px 12px, rgb(99, 170, 255) 0px 0px 16px, rgb(99, 170, 255) 0px 0px 22px, rgb(99, 170, 255) 0px 0px 30px;
+    text-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, rgb(99, 170, 255) 0px 0px 8px, rgb(99, 170, 255) 0px 0px 12px, rgb(99, 170, 255) 0px 0px 16px, rgb(99, 170, 255) 0px 0px 22px, rgb(99, 170, 255) 0px 0px 30px;
+}
+
+.color140 {
+    color: rgb(144, 220, 255);
+    background-color: rgb(144, 220, 255);
+}
+
+.color140.active {
+    box-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, rgb(144, 220, 255) 0px 0px 8px, rgb(144, 220, 255) 0px 0px 12px, rgb(144, 220, 255) 0px 0px 16px, rgb(144, 220, 255) 0px 0px 22px, rgb(144, 220, 255) 0px 0px 30px;
+    text-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, rgb(144, 220, 255) 0px 0px 8px, rgb(144, 220, 255) 0px 0px 12px, rgb(144, 220, 255) 0px 0px 16px, rgb(144, 220, 255) 0px 0px 22px, rgb(144, 220, 255) 0px 0px 30px;
+}
+
+.color150 {
+    color: rgb(36, 183, 222);
+    background-color: rgb(36, 183, 222);
+}
+
+.color150.active {
+    box-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, rgb(36, 183, 222) 0px 0px 8px, rgb(36, 183, 222) 0px 0px 12px, rgb(36, 183, 222) 0px 0px 16px, rgb(36, 183, 222) 0px 0px 22px, rgb(36, 183, 222) 0px 0px 30px;
+    text-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, rgb(36, 183, 222) 0px 0px 8px, rgb(36, 183, 222) 0px 0px 12px, rgb(36, 183, 222) 0px 0px 16px, rgb(36, 183, 222) 0px 0px 22px, rgb(36, 183, 222) 0px 0px 30px;
+}
+
+.color150.text {
+    text-shadow: rgb(45 191 222) 0px 1px 0px, rgb(42 170 198) 0px 2px 0px, rgb(35 145 168) 0px 3px 0px, rgb(29 125 145) 0px 4px 0px, rgb(0 0 0 / 23%) 0px 0px 5px, rgb(0 0 0 / 43%) 0px 1px 3px, rgb(0 0 0 / 40%) 1px 4px 6px, rgb(0 0 0 / 38%) 0px 5px 10px, rgb(0 0 0 / 25%) 3px 7px 12px
+}
+
+.color160 {
+    color: rgb(128, 255, 217);
+    background-color: rgb(128, 255, 217);
+}
+
+.color160.active {
+    box-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, rgb(128, 255, 217) 0px 0px 8px, rgb(128, 255, 217) 0px 0px 12px, rgb(128, 255, 217) 0px 0px 16px, rgb(128, 255, 217) 0px 0px 22px, rgb(128, 255, 217) 0px 0px 30px;
+    text-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, rgb(128, 255, 217) 0px 0px 8px, rgb(128, 255, 217) 0px 0px 12px, rgb(128, 255, 217) 0px 0px 16px, rgb(128, 255, 217) 0px 0px 22px, rgb(128, 255, 217) 0px 0px 30px;
+}
+
+.color160.text {
+    text-shadow: rgb(67 239 204) 0px 1px 0px, rgb(57 216 184) 0px 2px 0px, rgb(40 187 157) 0px 3px 0px, rgb(29 160 133) 0px 4px 0px, rgb(0 0 0 / 23%) 0px 0px 5px, rgb(0 0 0 / 43%) 0px 1px 3px, rgb(0 0 0 / 40%) 1px 4px 6px, rgb(0 0 0 / 38%) 0px 5px 10px, rgb(0 0 0 / 25%) 3px 7px 12px
+}
+
+.color170 {
+    color: rgb(133, 255, 170);
+    background-color: rgb(133, 255, 170);
+}
+
+.color170.active {
+    box-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, rgb(133, 255, 170) 0px 0px 8px, rgb(133, 255, 170) 0px 0px 12px, rgb(133, 255, 170) 0px 0px 16px, rgb(133, 255, 170) 0px 0px 22px, rgb(133, 255, 170) 0px 0px 30px;
+    text-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, rgb(133, 255, 170) 0px 0px 8px, rgb(133, 255, 170) 0px 0px 12px, rgb(133, 255, 170) 0px 0px 16px, rgb(133, 255, 170) 0px 0px 22px, rgb(133, 255, 170) 0px 0px 30px;
+}
+
+.color180 {
+    color: rgb(11, 215, 72);
+    background-color: rgb(11, 215, 72);
+}
+
+.color180.active {
+    box-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, rgb(11, 215, 72) 0px 0px 8px, rgb(11, 215, 72) 0px 0px 12px, rgb(11, 215, 72) 0px 0px 16px, rgb(11, 215, 72) 0px 0px 22px, rgb(11, 215, 72) 0px 0px 30px;
+    text-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, rgb(11, 215, 72) 0px 0px 8px, rgb(11, 215, 72) 0px 0px 12px, rgb(11, 215, 72) 0px 0px 16px, rgb(11, 215, 72) 0px 0px 22px, rgb(11, 215, 72) 0px 0px 30px;
+}
+
+.color180.text {
+    text-shadow: rgb(0 184 55) 0px 1px 0px, rgb(0 155 47) 0px 2px 0px, rgb(0 134 40) 0px 3px 0px, rgb(0 114 34) 0px 4px 0px, rgb(0 0 0 / 23%) 0px 0px 5px, rgb(0 0 0 / 43%) 0px 1px 3px, rgb(0 0 0 / 40%) 1px 4px 6px, rgb(0 0 0 / 38%) 0px 5px 10px, rgb(0 0 0 / 25%) 3px 7px 12px
+}
