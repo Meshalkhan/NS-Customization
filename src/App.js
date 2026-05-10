@@ -1,17 +1,16 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import './ColorStyle.css';
 import "./fontImport.css"
 import './checkbox.css'
-import Navbar from './Navbar'
 import HomePage from './Routes/HomePage';
-import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import DesignProofPage from './Routes/DesignProofPage';
 import neonbackground1 from './Assets/Imgs/neonbackground1.png'
 import neonbackground2 from './Assets/Imgs/neonbackground2.png'
 import neonbackground3 from './Assets/Imgs/neonbackground3.png'
 import neonbackground4 from './Assets/Imgs/neonbackground4.png'
 import neonbackground5 from './Assets/Imgs/neonbackground5.png'
-import Footer from './atom/Footer';
+import { MainLayout } from './layouts/MainLayout';
 
 
 
@@ -142,10 +141,7 @@ function App() {
     <div className="App">
 
       <Router>
-        <Navbar />
-
-        {/* <Link to={UserInput !== 'Type Here' ? '/design-proof' : '/'} onClick={(e)=>{}}> */}
-        {/* </Link> */}
+        <MainLayout>
         <Routes>
           <Route path="/" element={<HomePage
             UserInput={UserInput}
@@ -198,7 +194,7 @@ function App() {
             Price={Price}
           />} />
         </Routes>
-        <Footer />
+        </MainLayout>
       </Router >
 
     </div >
