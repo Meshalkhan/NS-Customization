@@ -1,5 +1,5 @@
 
-import { Textfit } from 'react-textfit'
+import Textfit from '@namhong2001/react-textfit'
 import BannerSlider from './Banner'
 
 

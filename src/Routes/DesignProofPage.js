@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import SignDiagramUSA from '../Assets/Imgs/SignDiagramUSA.png'
-import Textfit from 'react-textfit'
+import Textfit from '@namhong2001/react-textfit'
 import { useNavigate } from "react-router-dom";
 
 

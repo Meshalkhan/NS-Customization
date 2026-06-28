@@ -1,5 +1,4 @@
 import React from 'react'
-import { Textfit } from 'react-textfit'
 import AcrylicBackground from '../atom/AcrylicBackground'
 import BannerSlider from '../atom/Banner'
 import ColorSlction from '../atom/ColorSlction'
