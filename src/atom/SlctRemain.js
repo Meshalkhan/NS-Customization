@@ -2,7 +2,6 @@ import SelectBackBoard from "../SelectBackBoard";
 import AcrylicBackground from "./AcrylicBackground";
 import Options from "./Options";
 import PowerAdapt from "./PowerAdapt";
-import { Link } from 'react-router-dom'
 
 const SlctRemain = ({ oldProps, moveLink }) => {
     return (
@@ -70,7 +69,9 @@ const SlctRemain = ({ oldProps, moveLink }) => {
                     Price={oldProps.Price}
                 />
                 {/* <Link to={oldProps.UserInput !== 'Type Here' ? '/design-proof' : '/'} > */}
-                <button onClick={moveLink} className='py-3 mt-3 addtocart'>ADD TO CART</button>
+                <button type="button" onClick={moveLink} className="py-3 mt-3 addtocart">
+                  Continue to design proof
+                </button>
                 {/* </Link> */}
             </div>
         </>

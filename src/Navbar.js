@@ -1,49 +1,54 @@
-import React from 'react'
+import { Link, useLocation } from 'react-router-dom';
 
 const logo = `${process.env.PUBLIC_URL}/NeonClub.png`;
 
 function Navbar() {
-    return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light app-navbar">
-            <div className="container">
-                {/* <div className='d-block d-lg-none'>
-                    <img src={logo} width='100' alt="LOGO" />
-                </div> */}
-                {/* <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button> */}
-                <div className='mx-auto ms-lg-0 d-inline-flex'>
-                    <img src={logo} width='100' alt="LOGO" className="mx-auto d-block" style={{ borderRadius: '25px' }} />
-                    <p className="tc-blue fw-bold fs30 align-self-center mb-0 ms-3 ms-md-4 brand-title">NeonClub.pk</p>
-                </div>
-                {/* <div className="collapse navbar-collapse" id="navbarText">
-                    <div className="d-md-flex justify-content-between">
-                        <div className="px-3">
-                            <p className="fs22 fw-bold text-black mb-0" href="#">HOME</p>
-                        </div>
-                        <div className="px-3">
-                            <p className="fs22 fw-bold text-black mb-0" aria-current="page" href="#">DESIGN YOUR OWN SIGN</p>
-                        </div>
-                        <div className="px-3">
-                            <p className="fs22 fw-bold text-black mb-0" href="#">UPLOAD AN IMAGE</p>
-                        </div>
-                        <div className='d-none d-lg-block mx-3'>
-                            <img src={logo} width='100' alt="LOGO" />
-                        </div>
-                        <div className="px-3">
-                            <p className="fs22 fw-bold text-black mb-0" href="#">BUSINESS LOGOS</p>
-                        </div>
-                        <div className="px-3">
-                            <p className="fs22 fw-bold text-black mb-0" href="#">OUTDOOR SIGNS</p>
-                        </div>
-                        <div className="px-3">
-                            <p className="fs22 fw-bold text-black mb-0" href="#">SHOP</p>
-                        </div>
-                    </div>
-                </div> */}
-            </div>
-        </nav>
-    )
+  const { pathname } = useLocation();
+  const isHome = pathname === '/';
+
+  return (
+    <nav className="navbar navbar-expand-lg app-navbar">
+      <div className="container">
+        <Link to="/" className="navbar-brand-wrap">
+          <img src={logo} alt="NeonClub" className="navbar-logo" />
+          <p className="brand-title mb-0">NeonClub.pk</p>
+        </Link>
+
+        <button
+          className="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon" />
+        </button>
+
+        <div className="collapse navbar-collapse" id="mainNav">
+          <ul className="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+            <li className="nav-item">
+              <Link to="/" className={`nav-link-custom ${isHome ? 'active' : ''}`}>
+                Design Studio
+              </Link>
+            </li>
+            <li className="nav-item">
+              <a href="#features" className="nav-link-custom">Features</a>
+            </li>
+            <li className="nav-item">
+              <a href="#faq" className="nav-link-custom">FAQ</a>
+            </li>
+            <li className="nav-item ms-lg-2">
+              <Link to="/design-proof" className="nav-cta">
+                View proof
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  );
 }
 
-export default Navbar
+export default Navbar;

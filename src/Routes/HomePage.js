@@ -1,11 +1,4 @@
 import React from 'react'
-import AcrylicBackground from '../atom/AcrylicBackground'
-import BannerSlider from '../atom/Banner'
-import ColorSlction from '../atom/ColorSlction'
-import FontSlction from '../atom/FontSlction'
-import Options from '../atom/Options'
-import PowerAdapt from '../atom/PowerAdapt'
-import SelectBackBoard from '../SelectBackBoard'
 import videoImg from '../Assets/Imgs/videoimage.jpg'
 import OneToFive from '../Assets/Imgs/OneToFive.jpg'
 import SignDiagramUSA from '../Assets/Imgs/SignDiagramUSA.png'
@@ -17,12 +10,13 @@ import warranty from '../Assets/Imgs/warranty.jpg'
 import iconremote from '../Assets/Imgs/iconremote.png'
 import iconpower from '../Assets/Imgs/iconpower.png'
 import iconstrong from '../Assets/Imgs/iconstrong.png'
-import { Link, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import Output from '../atom/Output'
 import InputText from '../atom/InputText'
 import SlctFont from '../atom/SlctFont'
 import SlctRemain from '../atom/SlctRemain'
 import SlctColor from '../atom/SlctColor'
+import WhatsAppFab from '../components/ui/WhatsAppFab'
 import Swal from 'sweetalert2'
 
 function HomePage(props) {
@@ -41,104 +35,61 @@ function HomePage(props) {
 
 
     return (
-        <div className=' pt-5 mx-auto main-bg'>
-            <div className='position-fixed bottom_right shadow_ cursorPointer' onClick={moveLink}>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40px" height="40px"><path fill="#f2faff" d="M4.221,29.298l-0.104-0.181c-1.608-2.786-2.459-5.969-2.458-9.205 C1.663,9.76,9.926,1.5,20.078,1.5c4.926,0.002,9.553,1.919,13.03,5.399c3.477,3.48,5.392,8.107,5.392,13.028 c-0.005,10.153-8.268,18.414-18.42,18.414c-3.082-0.002-6.126-0.776-8.811-2.24l-0.174-0.096l-9.385,2.46L4.221,29.298z" /><path fill="#788b9c" d="M20.078,2L20.078,2c4.791,0.001,9.293,1.867,12.676,5.253C36.137,10.639,38,15.14,38,19.927 c-0.005,9.878-8.043,17.914-17.927,17.914c-2.991-0.001-5.952-0.755-8.564-2.18l-0.349-0.19l-0.384,0.101l-8.354,2.19 l2.226-8.131l0.11-0.403L4.55,28.867c-1.566-2.711-2.393-5.808-2.391-8.955C2.163,10.036,10.202,2,20.078,2 M20.078,1 C9.651,1,1.163,9.485,1.158,19.912c-0.002,3.333,0.869,6.588,2.525,9.455L1,39.169l10.03-2.63c2.763,1.507,5.875,2.3,9.042,2.302 h0.008c10.427,0,18.915-8.485,18.92-18.914c0-5.054-1.966-9.807-5.538-13.382C29.89,2.971,25.14,1.002,20.078,1L20.078,1z" /><path fill="#79ba7e" d="M19.995,35c-2.504-0.001-4.982-0.632-7.166-1.823l-1.433-0.782l-1.579,0.414l-3.241,0.85l0.83-3.03	l0.453-1.656L7,27.485c-1.309-2.267-2.001-4.858-2-7.492C5.004,11.726,11.732,5.001,19.998,5c4.011,0.001,7.779,1.563,10.61,4.397	C33.441,12.231,35,15.999,35,20.005C34.996,28.273,28.268,35,19.995,35z" /><path fill="#fff" d="M28.28,23.688c-0.45-0.224-2.66-1.313-3.071-1.462c-0.413-0.151-0.712-0.224-1.012,0.224	c-0.3,0.45-1.161,1.462-1.423,1.761c-0.262,0.3-0.524,0.337-0.974,0.113c-0.45-0.224-1.899-0.7-3.615-2.231	c-1.337-1.191-2.239-2.663-2.501-3.113c-0.262-0.45-0.029-0.693,0.197-0.917c0.202-0.202,0.45-0.525,0.674-0.787	c0.224-0.262,0.3-0.45,0.45-0.75c0.151-0.3,0.075-0.563-0.038-0.787c-0.113-0.224-1.012-2.437-1.387-3.336	c-0.364-0.876-0.736-0.757-1.012-0.771c-0.262-0.014-0.562-0.015-0.861-0.015c-0.3,0-0.787,0.113-1.198,0.563	c-0.411,0.45-1.573,1.537-1.573,3.749s1.611,4.35,1.835,4.649c0.224,0.3,3.169,4.839,7.68,6.786	c1.072,0.462,1.911,0.739,2.562,0.947c1.076,0.342,2.057,0.294,2.832,0.178c0.864-0.129,2.66-1.087,3.034-2.136	c0.375-1.049,0.375-1.95,0.262-2.136C29.03,24.025,28.731,23.912,28.28,23.688z" /></svg>
-            </div>
-            <div className='container row mx-auto'>
+        <div className="main-bg">
+            <WhatsAppFab onClick={moveLink} />
 
-                <p className="tc-blue fw-bold fs30 text-center">Create Your Own Custom Neon</p>
-                <p className="tc-pink fw-400 fs22 text-center" >Your own creation, handmade from light.</p>
+            <header className="page-hero">
+                <span className="page-hero__eyebrow">LED neon configurator</span>
+                <h1 className="page-hero__title">Create your custom neon sign</h1>
+                <p className="page-hero__subtitle">
+                    Type your text, pick a font and color, then preview your sign in real time before ordering.
+                </p>
+            </header>
 
-                <div className="row g-3">
-                    <div className="col-lg-6 col-xl-4">
-                        <div className="Selection_Box py-3">
-                            {/* <ul className="text-center combineButton RadioToButton px-0 d-flex justify-content-center">
-                                <li className="w-50 selected" onClick={(e) => { props.setSelction('TEXT') }}>
-                                    <input
-                                        type="radio"
-                                        id="SlctTEXT"
-                                        name="Selction"
-                                        value="TEXT"
-                                        defaultChecked={props.Selction == "TEXT"}
-                                        onChange={(e) => { props.setSelction('TEXT') }}
-                                    />
-                                    <label htmlFor="SlctTEXT" className="py-1 fw-bold mb-0">
-                                        TEXT
-                                    </label>
-                                </li>
-                                <li className="w-50" onClick={(e) => { props.setSelction('FONT') }}>
-                                    <input
-                                        type="radio"
-                                        id="SlctFONT"
-                                        name="Selction"
-                                        value="FONT"
-                                        defaultChecked={props.Selction == "FONT"}
-                                        onChange={(e) => { props.setSelction('FONT') }}
-                                    />
-                                    <label htmlFor="SlctFONT" className="py-1 fw-bold mb-0">
-                                        FONT
-                                    </label>
-                                </li>
-                                <li className="w-50" onClick={(e) => { props.setSelction('COLOR') }}>
-                                    <input
-                                        type="radio"
-                                        id="SlctCOLOR"
-                                        name="Selction"
-                                        value="COLOR"
-                                        defaultChecked={props.Selction == "COLOR"}
-                                        onChange={(e) => { props.setSelction('COLOR') }}
-                                    />
-                                    <label htmlFor="SlctCOLOR" className="py-1 fw-bold mb-0">
-                                        COLOR
-                                    </label>
-                                </li>
-                            </ul> */}
-                            <div className="row px-3 pb-5">
-                                <div className="col-12 ps-1">
-                                    <InputText
-                                        oldProps={props} />
+            <section className="studio">
+                <div className="studio__grid">
+                    <div className="studio-panel">
+                        <div className="studio-panel__header">
+                            <h2 className="studio-panel__title">Customize</h2>
+                            <span className="studio-panel__badge">PKR {props.Price?.toLocaleString?.() ?? props.Price}</span>
+                        </div>
+                        <div className="studio-panel__body Selection_Box">
+                            <div className="row g-3">
+                                <div className="col-12">
+                                    <InputText oldProps={props} />
                                 </div>
-                                <div className="d-lg-none col-12 mb-5 Output">
-
-                                    <Output
-                                        oldProps={props}
-                                    />
-
+                                <div className="d-lg-none col-12 Output">
+                                    <div className="preview-stage">
+                                        <Output oldProps={props} />
+                                    </div>
                                 </div>
-                                <div className="col-9 pe-1 pt-lg-0" style={{ paddingTop: '10vw' }} >
-
-                                    <SlctFont
-                                        oldProps={props} />
-
-
+                                <div className="col-9">
+                                    <SlctFont oldProps={props} />
                                 </div>
-                                <div className="col-3 pt-lg-0" style={{ paddingTop: '10vw' }} >
-                                    <SlctColor
-                                        oldProps={props} />
-
+                                <div className="col-3">
+                                    <SlctColor oldProps={props} />
                                 </div>
                             </div>
-                            <SlctRemain
-                                moveLink={moveLink}
-                                oldProps={props} />
+                            <SlctRemain moveLink={moveLink} oldProps={props} />
                         </div>
                     </div>
-                    <div className="d-none d-lg-block col-lg-6 col-xl-8 Output">
-                        <Output
-                            oldProps={props}
-                        />
+
+                    <div className="d-none d-lg-block Output">
+                        <div className="preview-stage">
+                            <Output oldProps={props} />
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
+
             <div className='mt-5'>
                 <div className='containerImg'>
                     <div className='parallax__container'>
                         <div className='parallax--bg bg1 _bg'></div>
                     </div>
                 </div>
-                <div className='my-5 container'>
-                    <h1 className="tc-pink text-center">Create a Neon Club® sign in 5 easy steps</h1>
+                <div className='section-block' id="features">
+                    <h2 className="section-block__title section-block__title--pink">Create a Neon Club® sign in 5 easy steps</h2>
                     <div className='mx-auto text-center my-4'>
                         <img className='my-2' src={videoImg} style={{ width: '-webkit-fill-available' }} alt="" />
                         <img className='my-2 container' src={OneToFive} alt="" />
@@ -149,10 +100,10 @@ function HomePage(props) {
                         <div className='parallax--bg bg2 _bg'></div>
                     </div>
                 </div>
-                <div className='my-5 container'>
-                    <h1 className="tc-pink text-center">Bring your Imagination to Life</h1>
-                    <h3 className="text-center">MAKE YOUR OWN UNIQUE SIGN WITH OUR ONLINE DESIGN TOOL</h3>
-                    <div className='row my-4 gx-3 gy-3'>
+                <div className='section-block'>
+                    <h2 className="section-block__title section-block__title--pink">Bring your imagination to life</h2>
+                    <h3 className="text-center text-muted mb-4">Make your own unique sign with our online design tool</h3>
+                    <div className='row my-4 gx-3 gy-3 section-prose'>
                         <div className='col-md-6'>
                             <h3 className="w-75 tc-blue">Create Custom Made Neon Signs</h3>
                             <span className="w-75 tc-grey fs-3">LED Neon Sign Maker</span>
@@ -197,65 +148,65 @@ function HomePage(props) {
                         <div className='parallax--bg bg3 _bg'></div>
                     </div>
                 </div>
-                <div className='row container mx-auto my-5 gy-4'>
+                <div className='section-block row mx-auto g-4' id="features-grid">
                     <div className='col-md-6 col-lg-3'>
-                        <div className='card text-center'>
+                        <div className='feature-card text-center'>
                             <img src={icondesign} className="mb-2 w-50 mx-auto" alt="" />
                             <h4 >Customized Neon Signs</h4>
                             <p >All of our neon light signs are custom designed by us, and can be altered to your specifications, size and colors. We can make any neon sign you want, in any fonts and a wide selection of colors. </p>
                         </div>
                     </div>
                     <div className='col-md-6 col-lg-3'>
-                        <div className='card text-center'>
+                        <div className='feature-card text-center'>
                             <img src={iconadapter} className="mb-2 w-50 mx-auto" alt="" />
                             <h4 >Adapter Included</h4>
                             <p >Your new LED neon comes with a 4.9 ft transparent cord which plugs into a certified adapter (if you need an adapter for another country, ask when checking out). The adapter has an additional 3-6 ft of cable that plugs into the socket.</p>
                         </div>
                     </div>
                     <div className='col-md-6 col-lg-3'>
-                        <div className='card text-center'>
+                        <div className='feature-card text-center'>
                             <img src={iconshipping} className="mb-2 w-50 mx-auto" alt="" />
                             <h4 >Worldwide Shipping</h4>
                             <p >Standard orders take 3-5 weeks*, including production and shipping. 'Rush' orders take 2-3 weeks*, including production and shipping to addresses in the USA and Canada. Please choose the 'Rush My Order' option at checkout, and let us know the date by which you need your sign to arrive. </p>
                         </div>
                     </div>
                     <div className='col-md-6 col-lg-3'>
-                        <div className='card text-center'>
+                        <div className='feature-card text-center'>
                             <img src={iconinstall} className="mb-2 w-50 mx-auto" alt="" />
                             <h4 >Easy to Install</h4>
                             <p >Our LED Neon signs are mounted on high quality, clear acrylic backboards, stands or boxes. Backboards feature pre-drilled holes for easy wall mounting, and are ready for mounting, right out of the box.</p>
                         </div>
                     </div>
                     <div className='col-md-6 col-lg-3'>
-                        <div className='card text-center'>
+                        <div className='feature-card text-center'>
                             <img src={warranty} className="mb-2 w-50 mx-auto" alt="" />
                             <h4 >24 Months Warranty</h4>
                             <p >We offer the latest LED neon flex technology which is both stronger &amp; lighter than glass neon. All of our signs come with a 24-month manufacturer warranty covering faulty items. </p>
                         </div>
                     </div>
                     <div className='col-md-6 col-lg-3'>
-                        <div className='card text-center'>
+                        <div className='feature-card text-center'>
                             <img src={iconremote} className="mb-2 w-50 mx-auto" alt="" />
                             <h4 >Remote Control Available</h4>
                             <p >Switch ON/OFF and pick from 10 brightness settings. The LED neon lights can be set to flash with adjustable speeds. (Optional/extra cost on some models)</p>
                         </div>
                     </div>
                     <div className='col-md-6 col-lg-3'>
-                        <div className='card text-center'>
+                        <div className='feature-card text-center'>
                             <img src={iconpower} className="mb-2 w-50 mx-auto" alt="" />
                             <h4 >Low Energy, High Brightness</h4>
                             <p >Our LED neon signs are both economical and ecologically friendly. They have low energy consumption and a 100,000+ hours lifespan</p>
                         </div>
                     </div>
                     <div className='col-md-6 col-lg-3'>
-                        <div className='card text-center'>
+                        <div className='feature-card text-center'>
                             <img src={iconstrong} className="mb-2 w-50 mx-auto" alt="" />
                             <h4 >Strong And Powerful</h4>
                             <p >Our LED neons signs come in a range of bright, eye-catching colors. The energy-efficient technology ensures a powerful light that lasts for years.</p>
                         </div>
                     </div>
                 </div>
-                <div className='py-3 faq_bg'>
+                <div className='py-3 faq_bg' id="faq">
                     <div className='container text-center my-5'>
                         <h1 className='tc-blue fw-bold my-5'>FAQ</h1>
                         <div>

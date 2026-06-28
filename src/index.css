@@ -24,16 +24,16 @@
 }
 
 #root {
-  background-color: white;
-  min-height: 100vh
+  background-color: transparent;
+  min-height: 100vh;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', system-ui, sans-serif;
 }
 
 .navbar {
-  box-shadow: 0 0 5px #8a1312, 0 0 8px purple;
+  box-shadow: none;
 }
 
 .GrayScaleSign {
@@ -198,36 +198,11 @@ body {
   border-radius: 8px;
 }
 
-textarea::-webkit-input-placeholder {
-  color: #b9b9b9;
-  text-align: center;
-  font-weight: 600;
-}
-
-textarea:-moz-placeholder {
-  /* Firefox 18- */
-  color: #b9b9b9;
-  text-align: center;
-  font-weight: 600;
-}
-
-textarea::-moz-placeholder {
-  /* Firefox 19+ */
-  color: #b9b9b9;
-  text-align: center;
-  font-weight: 600;
-}
-
-textarea:-ms-input-placeholder {
-  color: #b9b9b9;
-  text-align: center;
-  font-weight: 600;
-}
-
+textarea::-webkit-input-placeholder,
 textarea::placeholder {
-  color: #b9b9b9;
+  color: rgba(238, 240, 248, 0.35);
   text-align: center;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .roundbdr {
@@ -402,20 +377,8 @@ textarea::placeholder {
   top: 58.707px;
 }
 
-.bg1 {
-  background-image: url(../src/Assets/Imgs/bg_1.jpg) !important;
-}
-
-.bg2 {
-  background-image: url(../src/Assets/Imgs/bg_2.jpg) !important;
-}
-
-.bg3 {
-  background-image: url(../src/Assets/Imgs/bg_3.jpg) !important;
-}
-
 .faq_bg {
-  background-color: #F4F4F4 !important;
+  background-color: transparent !important;
 }
 
 .parallax__container .parallax--bg {
